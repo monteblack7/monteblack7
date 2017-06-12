@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mario Pest Control</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <p class="navbar-brand navbar-brand-custom"><span class="marioRed">M</span><span class="marioGreen">a</span><span class="marioYellow">r</span><span class="marioRed">i</span><span class="marioBlue">o </span><span class="marioGreen">P</span><span class="marioYellow">e</span><span class="marioRed">s</span><span class="marioGreen">t </span><span class="marioYellow">c</span><span class="marioBlue">o</span><span class="marioRed">n</span><span class="marioGreen">t</span><span class="marioYellow">r</span><span class="marioGreen">o</span><span class="marioBlue">l</span></p>
+            </div>
+            <div class="nav navbar-nav navbar-right">
+                <a href="index.html" class="btn btn-danger navbar-btn">HOME</a>
+                <a href="news.html" class="btn btn-danger navbar-btn">NEWS</a>
+                <a href="testimonital.html" class="btn btn-danger navbar-btn">TESTIMONIALS</a>
+                <p class='navbarTxtCustom'>Signed in as Princess Peach</p>
+            </div>
+
+        </div>
+    </nav>
+    
+    <!--Baddies, what they're worth and how many have been caught-->
+    <div class="backgroundImg">
+       <div id="cheatBackground">
+        <div class="container">
+            <div class="row spacing">
+                <div class="col-md-offset-7 col-md-5">
+                    <h1><span class="marioRed">INSTA-ESTIMATE</span></h1>
+                </div>
+            </div>
+            <div class="row spacing">
+                <div class="col-md-3">
+                    <img class="profilePic" src="http://vignette3.wikia.nocookie.net/nintendo/images/d/d5/GoombaNSMB.png/revision/latest?cb=20110724131649&path-prefix=en">
+                </div>
+                <div class="col-md-4">
+                    <h2>Goomba</h2>
+                </div>
+                <div class="col-md-3">
+                    <div class="goombaAmount">
+                        <label for="usr">Goombas:</label>
+                        <input type="number" class="form-control" id="goombaCount">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h2>5 Coins</h2>
+                </div>
+            </div>
+            <div class="row spacing">
+                <div class="col-md-3">
+                    <img class="profilePic" src="https://vignette3.wikia.nocookie.net/fantendo/images/6/63/BobombNSMBU.png/revision/latest?cb=20121106225051">
+                </div>
+                <div class="col-md-4">
+                    <h2>Bob-ombs</h2>
+                </div>
+                <div class="col-md-3">
+                    <div class="bobAmount">
+                        <label for="usr">Bob-ombs:</label>
+                        <input type="number" class="form-control" id="bobombCount">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h2>7 Coins</h2>
+                </div>
+            </div>
+            <div class="row spacing">
+                <div class="col-md-3">
+                    <img class="profilePic" src="https://www.mariowiki.com/images/thumb/6/63/CheepCheepNSMBU.png/200px-CheepCheepNSMBU.png">
+                </div>
+                <div class="col-md-4">
+                    <h2>Cheep-cheeps</h2>
+                </div>
+                <div class="col-md-3">
+                    <div class="cheepAmount">
+                        <label for="usr">Cheep-cheeps:</label>
+                        <input type="number" class="form-control" id="cheepCount">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h2>11 Coins</h2>
+                </div>
+            </div>
+        </div>
+        
+        <!--This container has the estimate with button-->
+        <div class="container">
+            <div class="row estimate">
+                <div class="col-md-3">
+                    <p> </p>
+                </div>
+                <div class="col-md-4">
+                    <h1>Estimated Price:</h1>
+                </div>
+                <div class="col-md-3">
+                    <div class="totalAmount">
+                        <p id="outputSize"></p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-danger" id="totalCoins">Calculate</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        
+    </div>
+    
+   
+    
+
+    <footer class="footer">
+        <p>Email: mario@plumbersunited.net</p>
+        <p>Website: mariopestcontrol.com</p>
+        <p>123 Pasta Ln. Castle</p>
+    </footer>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>

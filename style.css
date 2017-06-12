@@ -1,0 +1,115 @@
+.backgroundImg {
+/*    background-color:#38f030;*/
+    background-image: url("https://images7.alphacoders.com/333/333216.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 80px;
+}
+
+.navbar {
+    background-color: rgba(44, 44, 44, 0.5);
+    font-family: SuperMarioGalaxy;
+    z-index: 10;
+}
+
+.navbar-brand-custom {
+    font-size: 35px;
+    padding-top: 35px;
+}
+
+.navbarTxtCustom {
+    text-align: center;
+    color: rgb(118, 118, 118);
+    font-size: 17px;
+}
+
+.spacing {
+    padding: 15px;
+}
+
+.profilePic {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    font-family: 'Exo', sans-serif;
+    font-weight: bolder;
+}
+
+#header {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Exo', sans-serif;
+    font-weight: bolder;
+    margin-right: 25px;
+    margin-left: 25px;
+
+}
+
+.totalAmount {
+    background-color:white;
+    display:block;
+}
+
+#outputSize {
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    font-weight: bolder;
+    background-color: rgba(58, 83, 95, 0.5);
+}
+
+small{
+    font-size: 20px;
+}
+
+#cheatBackground {
+    background-color: rgba(58, 83, 95, 0.5);
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius:5%;
+    border: 2px solid black;
+}
+
+.footer {
+    width:100%;
+    height:100px;
+    background-image: url("https://ih1.redbubble.net/image.188771077.9190/flat,800x800,075,f.jpg");
+    border-top: 1px solid white;
+    
+}
+
+.footer p {
+    font-size: 18px;
+    font-family: 'Exo', sans-serif;
+    color:#ffffff;
+    margin-left: 20px;
+    margin-right:20px;
+    text-align: center;
+    font-weight:900;
+}
+
+label {
+    font-family: 'Exo', sans-serif;
+}
+
+h2 {
+    font-family: 'Exo', sans-serif;
+}
+
+.marioRed{
+    color: red;
+}
+
+.marioBlue{
+    color: blue;
+}
+
+.marioGreen{
+    color: green;
+}
+
+.marioYellow{
+    color: yellow;
+}
