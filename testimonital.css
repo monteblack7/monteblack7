@@ -1,0 +1,11 @@
+.backgroundImg {
+    background-image: url("https://images7.alphacoders.com/333/333216.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 80px;
+}
+
+.backgroundImg p .testimonial {
+    color: white;
+    font-size: 50px;
+}
