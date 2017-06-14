@@ -5,7 +5,13 @@
     padding-top: 80px;
 }
 
-.backgroundImg p .testimonial {
+.testimonial {
     color: white;
-    font-size: 50px;
+    font-size: 35px;
+    padding: 50px;
+}
+
+.custName {
+    padding-left: 50px;
+    color:white;
 }
